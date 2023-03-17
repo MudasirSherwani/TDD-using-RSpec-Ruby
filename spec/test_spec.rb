@@ -15,7 +15,6 @@ describe Solver do
     end
   end
 
-
   context 'Should throw an error when input is not an integer' do
     it 'should throw an error when given a string' do
       expect { Solver.factorial('v') }.to raise_error(ArgumentError)
